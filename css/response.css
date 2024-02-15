@@ -1,0 +1,30 @@
+@media screen and (max-width:768px){
+  header div.wrap ul.gnb{
+    display: none;
+  }
+  header div.wrap ul.lang{
+    display: none;
+  }
+  .ham{
+    display: flex;
+  }
+  header div.wrap h1{    
+  margin-left: 20px;
+  }
+  #title .wrap p{
+    padding: 0 20px;
+    text-align: center;
+  }
+  #title::before{ 
+  width: 76%;
+  height: 228px;
+  }
+  #title::after{
+  width: 76%;
+  height: 228px;
+  }
+  #title > a::before{    
+  width: 60%;
+  left: 76px;
+  }
+}
